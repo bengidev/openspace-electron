@@ -1,0 +1,36 @@
+{
+  "name": "openspace",
+  "version": "1.0.0",
+  "description": "Cross-platform Electron desktop AI assistant with an integrated terminal-first workspace.",
+  "keywords": [
+    "openspace",
+    "electron",
+    "ai-assistant",
+    "terminal",
+    "desktop",
+    "typescript",
+    "nextjs",
+    "tailwindcss",
+    "nodejs",
+    "electron-forge"
+  ],
+  "homepage": "https://github.com/bengidev/openspace-electron#readme",
+  "bugs": {
+    "url": "https://github.com/bengidev/openspace-electron/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengidev/openspace-electron.git"
+  },
+  "license": "MIT",
+  "author": "Bambang Tri Rahmat Doni",
+  "type": "commonjs",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^41.5.0"
+  }
+}
